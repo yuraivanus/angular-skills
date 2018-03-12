@@ -1,0 +1,49 @@
+/* .show-div {
+    width: 100px;
+    height: 100px;
+    background: red;
+} */
+
+button{
+    background: #1ddced;
+    padding: 5px 15px;
+    font-size: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 #0eb2c1;
+}
+
+.first-inf {
+    margin-left: 20px;
+    float: left;
+}
+
+.showDiv {
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-left: 10%;
+}
+
+input {
+    margin-left: 20px;
+}
+
+.name {
+margin: 15px;
+}
+
+.lastname {
+margin: 15px;
+}
+
+.age {
+margin: 15px;
+}
+
+.job {
+    margin: 15px;
+}

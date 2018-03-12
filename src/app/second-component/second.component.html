@@ -1,0 +1,21 @@
+<div class="everything">
+<div class="skills">
+        {{yourskill}}
+        
+    
+    </div>
+<br>
+<button (click) = "onClick()" class="button2">Add new skill</button>
+
+
+    <div *ngIf = "isShow" class="showDiv">
+        <br>
+        <input type="text" [(ngModel)] = "yourskill">
+        <br>
+        <br>
+        <button class="button3" (click) = "onClick()">Add</button>
+    </div>
+        
+</div>        
+
+

@@ -1,0 +1,43 @@
+<!-- <p>{{name}}</p>
+<p>{{age}}</p>
+
+<button [disabled]="isDisabled" (click) = "onClick()">Disabled</button>
+<br>
+
+<input type="text" [(ngModel)] = "value">
+<p>{{value}}</p>
+
+<button (click) = "showDiv()">Show</button>
+
+<div *ngIf = "isShow" class="show-div">
+
+</div>
+
+<div *ngFor = "let n of numbers">
+    <p>{{n}}</p>
+</div>
+<div><input type="number" [(ngModel)] = "newElement"></div>
+<button (click) = "addElement()">Add</button> -->
+<div class="first-inf">
+<p>Name: {{name}}</p>
+<p>Last name: {{lastname}}</p>
+<p>Age: {{ages}}</p>
+<p>Job: {{job}}</p>
+<button (click) = "onClick()">Edit</button>
+</div>
+
+<div *ngIf = "isShow" class="showDiv">
+    <div class="name">
+    Name:   <input type="text" [(ngModel)] = "name">
+</div>
+<div class="lastname">
+    Last name: <input type="text" [(ngModel)] = "lastname">
+</div>
+<div class="ages">
+    Age: <input type="text" [(ngModel)] = "ages">
+</div>
+<div class="job">
+    Job: <input type="text" [(ngModel)] = "job">  
+</div>
+    <button (click) = "onClick()">Close</button>
+</div>
